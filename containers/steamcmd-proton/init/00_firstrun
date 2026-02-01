@@ -3,4 +3,6 @@
 echo " [*] CREATE PEON DATA"
 echo "INITIALIZING" > $STATE_FILE
 echo " [*] SET PERMISSIONS"
-chown -R 1000:1000 /home/steam
+chown -R 1000:1000 /home/steam/steamcmd/data
+chown -R 1000:1000 /home/steam/config
+chown -R 1000:1000 /home/steam/steamcmd/data/savegame
